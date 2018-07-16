@@ -7,7 +7,7 @@
 #include "ChooseNextWaypoint.generated.h"
 
 /**
- * 
+ * Route Card for AI to choose Patrol Route for moving around Patrol Points
  */
 UCLASS()
 class TESTINGGROUNDS_API UChooseNextWaypoint : public UBTTaskNode
