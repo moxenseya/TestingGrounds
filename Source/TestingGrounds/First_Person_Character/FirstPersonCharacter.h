@@ -37,8 +37,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	
-	
+	UPROPERTY(EditDefaultsOnly, Category = Setup)
+		TSubclassOf<class AGun> GunBlueprint;
+
+private:
+	AGun* Gun;
 
 protected:
 	
