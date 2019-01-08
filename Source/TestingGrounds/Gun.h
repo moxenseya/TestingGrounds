@@ -30,13 +30,13 @@ class TESTINGGROUNDS_API AGun : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AGun();
+	/** Fires a projectile. */
+	void OnFire();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	/** Fires a projectile. */
-	void OnFire();
-
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

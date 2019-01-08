@@ -72,6 +72,8 @@ void AGun::Tick(float DeltaTime)
 
 void AGun::OnFire()
 {
+	//UE_LOG(LogTemp, Warning, TEXT("OnFire method is being called here in gun, need something to replace it"));
+
 	// try and fire a projectile
 	if (ProjectileClass != NULL)
 	{
